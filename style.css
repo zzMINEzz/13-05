@@ -1,0 +1,57 @@
+.t{
+    background-color: black;
+}
+.t:focus{
+    box-shadow: none;
+    background-color: black;
+}
+.t:hover{
+    background-color: black;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #000000;
+}
+.btn:hover {
+    color: #ffffff;
+    border-color: #000000;
+}
+.tnf{
+    border-radius: 25px;
+    max-width: 120px;
+    margin: 10px;
+}
+.east{
+    border-radius: 25px;
+    background-color: red;
+    border: 1px solid #fa9d9d;
+    max-width: 120px;
+    margin: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130%;
+    background-image:url(https://ichef.bbci.co.uk/news/976/cpsprodpb/DBB7/production/_122074265_hi071843849.jpg);
+}
+
+
+.card-body{
+    background-color: transparent;
+    color: #3d3c3c;
+}
